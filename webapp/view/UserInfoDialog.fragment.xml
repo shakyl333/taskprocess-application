@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<SelectDialog noDataText="No Products Found" title="Select user Information" rememberSelections="true" 
+					
+						items="{path: '/POItemSet'">
+		<StandardListItem id="standardListItem"
+						  title="{Bukrs}"
+						  description="{Matnr}"
+						  type="Active"
+						  />
+		
+	</SelectDialog>
+	
+	
+</core:FragmentDefinition>
